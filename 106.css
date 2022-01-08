@@ -1,0 +1,49 @@
+body
+    {
+        font-family: 'Bubblegum Sans', cursive;
+    background: #f5dbda;
+}
+.header_div{
+    background: white;
+    color: red;
+}
+.header_div p{
+    font-family: 'Special Elite', sans-serif;
+    color: gray;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+
+}
+
+.Main_div button{
+    font-family: 'Special Elite', sans-serif;
+    margin-top: 30px;
+    width: 130;
+    font-weight: bolder;
+    letter-spacing: 3px
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: orange;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+}   
+
+p::first-letter {
+    font-size: 100%;
+    color: #8A2BE2;
+  }
+
+  button::first-letter{
+      font-size: 30;
+      color: indianred;
+  }
+
+
